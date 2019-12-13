@@ -1,8 +1,9 @@
 package api
 
 import (
-	"github.com/gin-gonic/gin"
 	"github.com/kywang1/go-web-app/api/todos"
+
+	"github.com/gin-gonic/gin"
 )
 
 func ApplyRoutes(r *gin.Engine) {
